@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Text Replacer",
+    "description": "replaces all instances of a string with another string",
+    "version": "1.0",
+    
+    "options_ui": {
+    "page": "options.html"
+    },
+
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "textreplacer.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}

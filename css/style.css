@@ -1,0 +1,47 @@
+<style type="text/css">
+html{}
+
+body {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 200px;
+	background: url('../waterfall.gif') no-repeat center center fixed;
+	background-size: 500px auto;
+	background-repeat: repeat;
+	color: white;
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+}
+
+table{
+	background-color:rgba(176,196,222, 0.75);
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+input[type="textbox"] {
+	margin: 3px;
+	display: block; 
+	float: left;
+    background-color: #D9F3FF;
+}
+
+button{
+	width: 60px;
+	font-weight: bolder;
+	float: left;
+    background-color: #D9F3FF;
+}
+
+button:focus {
+	outline:0;
+}
+
+#status{
+	color: green;
+}
+
+</style>
